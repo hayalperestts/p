@@ -1,1 +1,41 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Selin'in Sayfası</title>
+    <style>
+        body {
+            background-color: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #e94560;
+            font-size: 48px;
+        }
+        p {
+            font-size: 20px;
+        }
+        button {
+            background-color: #e94560;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba, Ben Selin!</h1>
+    <p>Uçak Mühendisi & CEO adayı 🚀</p>
+    <p>Python, SQL ve web geliştirme öğreniyorum.</p>
+   <button onclick="document.getElementById('mesaj').innerText='Hayallerin gerçek olacak! 🚀'">
+    Bana İlham Ver
+</button>
+<p id="mesaj" style="font-size: 24px; color: #e94560; margin-top: 20px;"></p>
+</body>
+</html>
